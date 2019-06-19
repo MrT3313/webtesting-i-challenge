@@ -3,6 +3,7 @@ module.exports = {
   fail,
   repair,
   get,
+  add,
 };
 
 function succeed(item) {
@@ -19,4 +20,9 @@ function repair(item) {
 
 function get(item) {
   return { ...item };
+}
+
+// INITIAL TEST
+function add(a, b) {
+  return a + b 
 }
